@@ -1,0 +1,3 @@
+# This file keeps the temp directory tracked in git.
+# Multer uploads files here before sending them to Cloudinary.
+# The actual upload files are ignored via .gitignore.

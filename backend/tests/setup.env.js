@@ -1,0 +1,10 @@
+// Set test environment variables before any imports
+process.env.NODE_ENV = "test"
+process.env.ACCESS_TOKEN_SECRET = "test-access-secret-at-least-32-chars-long-abc"
+process.env.REFRESH_TOKEN_SECRET = "test-refresh-secret-at-least-32-chars-long-xyz"
+process.env.ACCESS_TOKEN_EXPIRY = "1d"
+process.env.REFRESH_TOKEN_EXPIRY = "10d"
+process.env.CLOUDINARY_CLOUD_NAME = "test-cloud"
+process.env.CLOUDINARY_API_KEY = "test-key"
+process.env.CLOUDINARY_API_SECRET = "test-secret"
+process.env.CORS_ORIGIN = "http://localhost:5173"
