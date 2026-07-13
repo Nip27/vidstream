@@ -320,19 +320,6 @@ npm run test:coverage    # With coverage report
 
 ---
 
-## Resume Claims Validation
-
-| Claim | Status | Evidence |
-|-------|--------|---------|
-| REST API Design | ✅ Supported | 9 resource routers, proper HTTP verbs, status codes, consistent response format |
-| JWT Authentication | ✅ Supported | Access + refresh tokens, rotation, httpOnly cookies, token refresh interceptor |
-| MongoDB Data Modeling | ✅ Supported | 7 schemas with relationships, compound indexes, aggregate pipelines |
-| Secure User Management | ✅ Supported | Bcrypt (12 rounds), rate limiting, no credential logging, helmet, CORS |
-| Scalable Data Access | ✅ Supported | Mongoose aggregate pagination, compound indexes, optimized lookup pipelines |
-| End-to-End Ownership | ✅ Supported | Full-stack: backend API + React SPA + Cloudinary integration + deployment configs |
-
----
-
 ## Tech Stack
 
 **Backend**
